@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Progmasters First Web Application</title>
@@ -10,19 +10,49 @@
 
 <h1>Hello PROGmasters! </h1>
 
-<p> Here is a sample form styled with Bootstrap:</p>
-<form>
-    <input type="text"/> Name<br>
+<h2> Here is a sample form styled with Bootstrap:</h2>
 
-    <input type="text"/> Password<br>
+<div>
+<label> Name</label>
+<input type="texy"/>
+</div>
 
-    <input type="text"/> Birth Year<br>
+<div>
+<label> Password</label>
+<input type="number"/>
+</div>
 
-    <input type="text"/> Email
+<div>
+    <label> Birth Year</label>
+    <input type="number"/>
+</div>
 
-    <input type="checkbox"/>
+<div>
+    <label> Email</label>
+    <input type="email"/>
+</div>
 
-</form>
+<div>
+    <label>Get up</label>
+    <input type="time"/>
+</div>
+
+<div>
+    <input type="radio" name="sex"/><label>Female</label>
+    <input type="radio" name="sex"/><label>Male</label>
+</div>
+
+<div>
+    <input type="checkbox" /><label>English</label>
+    <input type="checkbox"/><label>German</label>
+</div>
+
+<select multiple="multiple">
+    <option>Core java</option>
+    <option>Clean Code</option>
+</select>
+
+<button>Submit</button>
 
 </body>
 </html>
